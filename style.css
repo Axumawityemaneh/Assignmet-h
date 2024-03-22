@@ -1,0 +1,98 @@
+@media screen and (min-width:"414px") and (max-width:"800px") {
+    
+}
+body{
+width: 100%;
+height: auto;
+
+margin: 4;
+padding: 4;
+
+background-color: rgb(77, 90, 86);
+}
+.main{
+width: 100%;
+background: -moz-linear-gradient(totop,rgb(20, 20, 53));
+background-position: center;
+background-size: cover;
+height: 100gvh;
+padding-left: 50%;
+
+}
+
+.navbar{
+    width: 100%;
+    height: 75%;
+    margin: auto;
+}
+.icon{
+width: 200px;
+float: left;
+height: 70px;
+}
+.ribbon {
+  width: 90px;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+  right: -25px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  color: rgb(245, 6, 6);
+  
+  
+  }
+  .loader {
+      border: 16px solid rgb(245, 107, 130);
+      border-radius: 50%;
+      border-top: 16px solid red;
+      border-bottom: 16px solid blue;
+      width: 16px;
+      height: 16px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      
+}
+.logo{
+color: orangere;
+padding-left: 20px;
+float: left;
+padding-top: 10px;
+
+}
+.menu{
+  text-decoration: non;
+  width: 400px;
+  float: left;
+  height: 70px;
+  float: left;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 27px;
+  gap: 50%;
+}
+
+
+
+
+p.test1 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  
+  p.test2 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  @m
